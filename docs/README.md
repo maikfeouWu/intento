@@ -27,7 +27,8 @@ docs/
 │   ├── hu04-publicar-evento.md
 │   ├── hu05-ver-mis-eventos.md
 │   └── hu07-notificar-cambios-estado.md
-└── CONTRATO_PANEL_*.md             ← contratos de integración con otros equipos
+├── CONTRATO_PANEL_*.md             ← contratos de integración con otros equipos
+└── FRONTEND.md                     ← README del frontend (rutas y contrato Front ↔ Panel)
 ```
 
 ### Dónde va cada cosa de aquí en adelante
@@ -38,6 +39,7 @@ docs/
 | Contrato con otro equipo | `docs/` | `CONTRATO_PANEL_<EQUIPO>.md` (mayúsculas — ya establecido) |
 | Diagrama de secuencia | `docs/diagrams/` | `huNN-titulo-en-kebab-case.md` |
 | Planificación | `docs/sprints.md` | archivo único, se actualiza |
+| Referencia del frontend | `docs/FRONTEND.md` | archivo único, copia del README del repo del front |
 
 ---
 
