@@ -1,0 +1,44 @@
+{
+  "name": "panel-organizador",
+  "version": "1.0.0",
+  "description": "Microservicio correspondiente al **Panel Organizador** del proyecto TicketU.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joaquin-Martinez-Aravena/panel-organizador.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Joaquin-Martinez-Aravena/panel-organizador/issues"
+  },
+  "homepage": "https://github.com/Joaquin-Martinez-Aravena/panel-organizador#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.3",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.3",
+    "eslint": "^10.11.0",
+    "prettier": "^3.9.9",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
